@@ -1,0 +1,25 @@
+.wrapperNumber {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  ul {
+    display: flex;
+    background: #91919147;
+    border-radius: 20px;
+
+    li {
+      padding: 10px;
+
+      a {
+        text-decoration: none;
+        color: grey;
+      }
+      .active {
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
